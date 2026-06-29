@@ -1,23 +1,1157 @@
 
-<!doctype html><html data-build-id="cbdcff92c2" data-git-hash="cbdcff92c28f90f26b8b9e9dfb4ae8e20b1eb957" data-build-timestamp="1782522950" data-version="1.0.0" data-env="" data-color-version="v2" lang="en" data-theme="claude" data-mode="light" class="h-screen antialiased scroll-smooth"><head data-ion-ip-country="FR"><meta property="og:title" content="Claude Artifact"><meta name="twitter:title" content="Claude Artifact"><meta name="description" content="Try out Artifacts created by Claude users"><meta property="og:description" content="Try out Artifacts created by Claude users"><meta name="twitter:description" content="Try out Artifacts created by Claude users"><meta name="robots" content="noindex, nofollow"><link rel="preconnect" href="https://assets-proxy.anthropic.com" crossorigin><link rel="dns-prefetch" href="https://assets-proxy.anthropic.com"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title data-react-fallback>Claude Artifact</title><meta data-react-fallback name="description" content="Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."><meta name="apple-itunes-app" content="app-id=6473753684"><meta property="og:type" content="website"><meta property="og:site_name" content="Claude"><meta property="og:image" content="https://claude.ai/images/claude_ogimage.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cd02a42d9-Vq_H3mgS.svg"><link rel="icon" type="image/png" sizes="32x32" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ce67964e7-CAX1bqSh.png"><link rel="icon" type="image/png" sizes="16x16" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c03e51811-DebilQLI.png"><link rel="shortcut icon" href="/favicon.ico"><link rel="apple-touch-icon" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c129d018a-jJjJELY8.png"><link rel="apple-touch-startup-image" href="/images/claude_app_icon.png"><link rel="manifest" href="/manifest.json"><meta name="mobile-web-app-capable" content="yes"><link rel="preload" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc27851ad-Ch5JsymX.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c66fc489e-B-BVv4OK.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c0f671921-BBxv-EyX.woff2" as="font" type="font/woff2" crossorigin><script nonce="I/myRnqXTTcXvqNor3nsfg==">void 0===globalThis.process&&(globalThis.process={env:{},cwd:function(){return"/"}}),void 0===globalThis.global&&(globalThis.global=globalThis)</script><script type="application/ld+json" nonce="I/myRnqXTTcXvqNor3nsfg==">{
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebSite",
-            "name": "Claude",
-            "alternateName": ["Claude.ai", "Claude by Anthropic"],
-            "url": "https://claude.com"
-          },
-          {
-            "@type": "Organization",
-            "name": "Anthropic",
-            "url": "https://www.anthropic.com",
-            "logo": "https://claude.ai/images/claude_ogimage.png",
-            "sameAs": [
-              "https://x.com/AnthropicAI",
-              "https://www.linkedin.com/company/anthropic",
-              "https://www.youtube.com/@anthropic-ai"
-            ]
-          }
-        ]
-      }</script><script nonce="I/myRnqXTTcXvqNor3nsfg==">!function(){try{performance.mark?.("rq_cache:preload_start");const e="keyval-store",o="keyval",r="react-query-cache",t=new Promise(t=>{if(!window.indexedDB)return void t(void 0);const c=indexedDB.open(e);c.onupgradeneeded=()=>{c.transaction?.abort()},c.onerror=()=>t(void 0),c.onsuccess=()=>{const a=c.result;if(!a.objectStoreNames.contains(o))return a.close(),indexedDB.deleteDatabase(e),void t(void 0);try{const e=a.transaction(o,"readonly").objectStore(o).get(r);e.onerror=()=>{a.close(),t(void 0)},e.onsuccess=()=>{a.close(),window.__PRELOADED_IDB_CACHE_RESULT__=e.result,t(e.result)}}catch{a.close(),t(void 0)}}});window.__PRELOADED_IDB_CACHE__=t,performance.measure?.("rq_cache:preload_exec",{start:"rq_cache:preload_start"})}catch{}}()</script><link rel="preconnect" href="https://js.stripe.com"><link rel="preconnect" href="https://m.stripe.network"><script type="module" crossorigin src="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-DVpsZqNA.js" nonce="I/myRnqXTTcXvqNor3nsfg=="></script><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-react-B9b0-tId.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-infra-DayZK7Ds.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-zod-DIwjoczA.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-virtual-yR4bvvyd.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-radix-Cw7P9AyR.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-base-ui-KO3M3tqm.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-ant-cds-BktgzO3I.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-intl-mNhrNbcK.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-zustand-H2yny515.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-icons-CZnPQqVc.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-lodash-Df930Ckj.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-router-CwO9Xc7m.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CuidGUK5.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-luxon-Y8l99kBI.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-motion-B46Z7IfA.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-ant-icons--aE1nlTf.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-growthbook-BCpTXd5u.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-ChO6umu6.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cbf215181-CoCBspp8.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cf83a0aa1-yGhm_oPV.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c85adc124-DsT1ek2O.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ce1bfd762-CkfnnsXy.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c86a1b907-dYJuC_VE.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc2e285cb-SY7rcnRX.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c60f5ad19-ChpOlamz.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ca3b5b2cd-Cc3Cwgcq.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c29fd810e-DFMqCd65.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ca8998c31-CU-NAC-x.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c32c0d97f-BvasZg4N.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c5669b8e4-CSMEEaZl.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9e81e7b9-DLhTRp_V.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9f4bb49e-B7MB-80O.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c93f725a0-DGY0jWOx.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ce51edd53-BOtNn_S3.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c627fcdb6-CUSbzlqG.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c6a992d55-DK-Bwxq3.js"><link rel="stylesheet" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-ant-cds-D6IJ1PR1.css"><link rel="stylesheet" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-BjS1Z-Ak.css"><link rel="stylesheet" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9f4bb49e-o73uZ2YJ.css"><link rel="stylesheet" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c6a992d55-BikemQ6C.css"></head><body class="bg-bg-100 text-text-100 font-ui min-h-screen"><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The True Quest — Wiki</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --parch: #F2E8D5;
+    --parch-dark: #E8D9BC;
+    --parch-darker: #D4C4A0;
+    --wood: #6B4C2A;
+    --wood-light: #8B6340;
+    --wood-dark: #3E2A14;
+    --ink: #1C1208;
+    --ink-light: #3D2B10;
+    --gold: #C4972A;
+    --gold-light: #E8C14A;
+    --red: #8B2020;
+    --shadow: rgba(30,15,5,0.18);
+
+    --rare-commun: #7A7A7A;
+    --rare-peu: #3A7A3A;
+    --rare-rare: #2A5FA0;
+    --rare-epique: #7A2FA0;
+    --rare-legendaire: #C4972A;
+    --rare-mythique: #C45A1A;
+    --rare-trans: #A01A1A;
+    --rare-ego: #1A1A1A;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background-color: var(--parch);
+    color: var(--ink);
+    font-family: 'Crimson Text', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    background-image:
+      url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+
+  /* NAV */
+  nav {
+    background: var(--wood-dark);
+    border-bottom: 3px solid var(--gold);
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+
+  .nav-logo {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    color: var(--parch-dark);
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+    transition: all 0.2s;
+  }
+
+  .nav-links a:hover {
+    color: var(--gold);
+    background: rgba(196,151,42,0.1);
+  }
+
+  /* HERO */
+  .hero {
+    background: var(--wood-dark);
+    background-image: linear-gradient(to bottom, #2A1A08, #3E2A14);
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    border-bottom: 4px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 L55 50 L5 50 Z' fill='none' stroke='%23C4972A' stroke-width='0.3' opacity='0.15'/%3E%3C/svg%3E") repeat;
+    pointer-events: none;
+  }
+
+  .hero-ornament {
+    color: var(--gold);
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+
+  .hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2rem, 6vw, 4rem);
+    color: var(--gold);
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 0 2px 20px rgba(196,151,42,0.4);
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-subtitle {
+    color: var(--parch-dark);
+    font-style: italic;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+  }
+
+  .hero-divider {
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    margin: 0 auto;
+  }
+
+  /* SECTIONS */
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+
+  .section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    color: var(--wood-dark);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, var(--wood-light), transparent);
+  }
+
+  .section-subtitle {
+    color: var(--wood-light);
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+
+  .section-divider {
+    border: none;
+    border-top: 2px solid var(--parch-darker);
+    margin: 4rem 0 0;
+  }
+
+  /* CARDS GRID */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .card {
+    background: var(--parch-dark);
+    border: 2px solid var(--parch-darker);
+    border-radius: 6px;
+    padding: 1.5rem;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 2px 3px 8px var(--shadow);
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 6px 16px var(--shadow);
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+  }
+
+  .card-name {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--wood-dark);
+  }
+
+  .card-rang {
+    background: var(--wood-dark);
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+  .card-xp {
+    font-size: 0.9rem;
+    color: var(--red);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-desc {
+    font-size: 0.95rem;
+    color: var(--ink-light);
+    font-style: italic;
+    margin-bottom: 0.8rem;
+  }
+
+  .card-capacites {
+    font-size: 0.9rem;
+    color: var(--ink);
+    border-top: 1px solid var(--parch-darker);
+    padding-top: 0.6rem;
+  }
+
+  .card-capacites strong {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--wood);
+  }
+
+  /* RARETE */
+  .rarete-badge {
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+
+  .rarete-Commun { background: var(--rare-commun); }
+  .rarete-PeuCommun { background: var(--rare-peu); }
+  .rarete-Rare { background: var(--rare-rare); }
+  .rarete-Épique { background: var(--rare-epique); }
+  .rarete-Légendaire { background: var(--rare-legendaire); color: var(--ink); }
+  .rarete-Mythique { background: var(--rare-mythique); }
+  .rarete-Transcendant { background: var(--rare-trans); }
+  .rarete-Ego { background: var(--rare-ego); border: 1px solid var(--gold); }
+
+  /* DONJONS TABLE */
+  .donjon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .donjon-card {
+    background: var(--parch-dark);
+    border: 2px solid var(--parch-darker);
+    border-left: 4px solid var(--wood);
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+    box-shadow: 2px 3px 8px var(--shadow);
+    transition: transform 0.2s;
+  }
+
+  .donjon-card:hover { transform: translateY(-2px); }
+
+  .donjon-rang {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--wood-dark);
+  }
+
+  .donjon-credits {
+    color: var(--gold);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .donjon-desc {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--ink-light);
+    margin-top: 0.3rem;
+  }
+
+  /* ANECDOTES */
+  .anecdote-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .anecdote {
+    background: var(--parch-dark);
+    border: 1px solid var(--parch-darker);
+    border-left: 4px solid var(--gold);
+    border-radius: 4px;
+    padding: 1.5rem;
+    box-shadow: 2px 3px 8px var(--shadow);
+  }
+
+  .anecdote-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    color: var(--wood-dark);
+    margin-bottom: 0.5rem;
+  }
+
+  .anecdote-date {
+    font-size: 0.85rem;
+    color: var(--wood-light);
+    font-style: italic;
+    margin-bottom: 0.8rem;
+  }
+
+  /* FAQ */
+  .faq-list { display: flex; flex-direction: column; gap: 1rem; }
+
+  .faq-item {
+    background: var(--parch-dark);
+    border: 1px solid var(--parch-darker);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 2px 3px 8px var(--shadow);
+  }
+
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    color: var(--wood-dark);
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .faq-question:hover { background: var(--parch-darker); }
+  .faq-answer { padding: 0 1.5rem 1rem; display: none; font-style: italic; }
+  .faq-item.open .faq-answer { display: block; }
+  .faq-arrow { transition: transform 0.2s; }
+  .faq-item.open .faq-arrow { transform: rotate(90deg); }
+
+  /* FORM FAQ */
+  .faq-form {
+    background: var(--parch-dark);
+    border: 2px solid var(--parch-darker);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 2px 3px 8px var(--shadow);
+  }
+
+  .faq-form h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--wood-dark);
+    margin-bottom: 1rem;
+  }
+
+  .form-group { margin-bottom: 1rem; }
+
+  .form-group label {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    color: var(--wood);
+    margin-bottom: 0.4rem;
+    letter-spacing: 1px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    background: var(--parch);
+    border: 2px solid var(--parch-darker);
+    border-radius: 4px;
+    padding: 0.6rem 1rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .form-group input:focus,
+  .form-group textarea:focus { border-color: var(--gold); }
+  .form-group textarea { min-height: 100px; resize: vertical; }
+
+  .btn {
+    background: var(--wood-dark);
+    color: var(--gold);
+    border: 2px solid var(--gold);
+    padding: 0.6rem 1.5rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn:hover { background: var(--gold); color: var(--wood-dark); }
+
+  /* ADMIN PANEL */
+  .admin-toggle {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background: var(--wood-dark);
+    color: var(--gold);
+    border: 2px solid var(--gold);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px var(--shadow);
+    z-index: 200;
+    transition: all 0.2s;
+  }
+
+  .admin-toggle:hover { background: var(--gold); color: var(--wood-dark); }
+
+  .admin-panel {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(30,15,5,0.7);
+    z-index: 300;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .admin-panel.open { display: flex; }
+
+  .admin-box {
+    background: var(--parch);
+    border: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 2rem;
+    width: min(600px, 95vw);
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .admin-box h2 {
+    font-family: 'Cinzel', serif;
+    color: var(--wood-dark);
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--parch-darker);
+    padding-bottom: 0.8rem;
+  }
+
+  .admin-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--wood);
+    cursor: pointer;
+  }
+
+  .admin-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  .admin-tab {
+    background: var(--parch-dark);
+    border: 1px solid var(--parch-darker);
+    padding: 0.4rem 0.8rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+    color: var(--wood);
+    transition: all 0.2s;
+  }
+
+  .admin-tab.active, .admin-tab:hover {
+    background: var(--wood-dark);
+    color: var(--gold);
+    border-color: var(--gold);
+  }
+
+  .admin-form { display: none; }
+  .admin-form.active { display: block; }
+
+  #admin-login { display: block; }
+
+  /* PASSWORD */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .login-form h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--wood-dark);
+  }
+
+  /* EMPTY STATE */
+  .empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--wood-light);
+    font-style: italic;
+  }
+
+  /* SEARCH */
+  .search-bar {
+    width: 100%;
+    max-width: 400px;
+    background: var(--parch-dark);
+    border: 2px solid var(--parch-darker);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-bar:focus { border-color: var(--gold); }
+
+  /* FILTER */
+  .filter-bar {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-btn {
+    background: var(--parch-dark);
+    border: 1px solid var(--parch-darker);
+    padding: 0.3rem 0.8rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    cursor: pointer;
+    border-radius: 3px;
+    color: var(--wood);
+    transition: all 0.2s;
+  }
+
+  .filter-btn.active, .filter-btn:hover {
+    background: var(--wood-dark);
+    color: var(--gold);
+    border-color: var(--gold);
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--wood-dark);
+    border-top: 3px solid var(--gold);
+    padding: 2rem;
+    text-align: center;
+    color: var(--parch-darker);
+    font-style: italic;
+  }
+
+  footer strong {
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+  }
+
+  /* DELETE BTN */
+  .delete-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    color: var(--red);
+    cursor: pointer;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .card:hover .delete-btn,
+  .anecdote:hover .delete-btn,
+  .donjon-card:hover .delete-btn { opacity: 1; }
+
+  @media (max-width: 600px) {
+    .nav-links { display: none; }
+    .hero h1 { font-size: 1.8rem; }
+    section { padding: 2.5rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">⚔ THE TRUE QUEST</a>
+  <ul class="nav-links">
+    <li><a href="#monstres">Monstres</a></li>
+    <li><a href="#boss">Boss</a></li>
+    <li><a href="#items">Items</a></li>
+    <li><a href="#donjons">Donjons</a></li>
+    <li><a href="#anecdotes">Anecdotes</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-ornament">✦ ✦ ✦</div>
+  <h1>THE TRUE QUEST</h1>
+  <p class="hero-subtitle">Chroniques du Royaume — Wiki officiel</p>
+  <div class="hero-divider"></div>
+</div>
+
+<!-- MONSTRES -->
+<section id="monstres">
+  <h2 class="section-title">⚔ Monstres</h2>
+  <p class="section-subtitle">Créatures du royaume classées par rang (1 = plus puissant, 10 = plus faible)</p>
+  <input class="search-bar" type="text" id="search-monstres" placeholder="Rechercher un monstre...">
+  <div class="filter-bar" id="filter-monstres"></div>
+  <div class="cards-grid" id="grid-monstres">
+    <div class="empty-state">Aucun monstre encore répertorié.<br>Le MJ en ajoutera bientôt.</div>
+  </div>
+  <hr class="section-divider">
+</section>
+
+<!-- BOSS -->
+<section id="boss">
+  <h2 class="section-title">💀 Boss</h2>
+  <p class="section-subtitle">Entités légendaires d'une puissance redoutable</p>
+  <input class="search-bar" type="text" id="search-boss" placeholder="Rechercher un boss...">
+  <div class="cards-grid" id="grid-boss">
+    <div class="empty-state">Aucun boss encore répertorié.</div>
+  </div>
+  <hr class="section-divider">
+</section>
+
+<!-- ITEMS -->
+<section id="items">
+  <h2 class="section-title">💎 Items & Objets</h2>
+  <p class="section-subtitle">Artefacts, gemmes, équipements et consommables</p>
+  <input class="search-bar" type="text" id="search-items" placeholder="Rechercher un item...">
+  <div class="filter-bar" id="filter-items"></div>
+  <div class="cards-grid" id="grid-items">
+    <div class="empty-state">Aucun item encore répertorié.</div>
+  </div>
+  <hr class="section-divider">
+</section>
+
+<!-- DONJONS -->
+<section id="donjons">
+  <h2 class="section-title">🏰 Donjons</h2>
+  <p class="section-subtitle">Lieux maudits et leurs récompenses</p>
+  <div class="donjon-grid" id="grid-donjons">
+    <div class="empty-state" style="grid-column:1/-1">Aucun donjon encore répertorié.</div>
+  </div>
+  <hr class="section-divider">
+</section>
+
+<!-- ANECDOTES -->
+<section id="anecdotes">
+  <h2 class="section-title">📜 Anecdotes</h2>
+  <p class="section-subtitle">Histoires et moments marquants du royaume, rédigés par le MJ</p>
+  <div class="anecdote-list" id="list-anecdotes">
+    <div class="empty-state">Aucune anecdote encore rédigée.</div>
+  </div>
+  <hr class="section-divider">
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <h2 class="section-title">❓ FAQ</h2>
+  <p class="section-subtitle">Questions fréquentes des joueurs</p>
+  <div class="faq-list" id="list-faq">
+    <div class="empty-state">Aucune question encore répondue.</div>
+  </div>
+
+  <div class="faq-form">
+    <h3>📩 Poser une question</h3>
+    <div class="form-group">
+      <label>Ton pseudo Discord</label>
+      <input type="text" id="faq-pseudo" placeholder="ex: Amara#1234">
+    </div>
+    <div class="form-group">
+      <label>Ta question</label>
+      <textarea id="faq-question" placeholder="Pose ta question ici..."></textarea>
+    </div>
+    <button class="btn" onclick="envoyerQuestion()">Envoyer la question</button>
+    <p id="faq-confirm" style="color:var(--wood);font-style:italic;margin-top:0.5rem;display:none">✓ Question envoyée ! Le MJ répondra bientôt.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <strong>The True Quest</strong> — Wiki officiel du serveur RP Fantasy<br>
+  <span style="font-size:0.85rem">Toute modification est réservée au Maître du Jeu</span>
+</footer>
+
+<!-- ADMIN BUTTON -->
+<button class="admin-toggle" onclick="toggleAdmin()" title="Panel MJ">🗝</button>
+
+<!-- ADMIN PANEL -->
+<div class="admin-panel" id="admin-panel">
+  <div class="admin-box">
+    <button class="admin-close" onclick="toggleAdmin()">✕</button>
+
+    <!-- LOGIN -->
+    <div id="admin-login" class="admin-form active">
+      <h2>🔐 Accès Maître du Jeu</h2>
+      <div class="login-form">
+        <h3>Mot de passe MJ</h3>
+        <input type="password" id="admin-pwd" placeholder="Mot de passe..." class="search-bar" style="max-width:100%">
+        <button class="btn" onclick="adminLogin()">Entrer</button>
+        <p id="login-error" style="color:var(--red);display:none;font-style:italic">Mot de passe incorrect.</p>
+      </div>
+    </div>
+
+    <!-- PANEL -->
+    <div id="admin-content" class="admin-form">
+      <h2>⚔ Panel Maître du Jeu</h2>
+      <div class="admin-tabs">
+        <button class="admin-tab active" onclick="switchTab('monstre')">Monstre</button>
+        <button class="admin-tab" onclick="switchTab('boss')">Boss</button>
+        <button class="admin-tab" onclick="switchTab('item')">Item</button>
+        <button class="admin-tab" onclick="switchTab('donjon')">Donjon</button>
+        <button class="admin-tab" onclick="switchTab('anecdote')">Anecdote</button>
+        <button class="admin-tab" onclick="switchTab('faq-rep')">FAQ</button>
+        <button class="admin-tab" onclick="switchTab('questions')">Questions</button>
+      </div>
+
+      <!-- FORM MONSTRE -->
+      <div id="tab-monstre" class="admin-form active">
+        <div class="form-group"><label>Nom</label><input type="text" id="m-nom"></div>
+        <div class="form-group"><label>Rang (1-10)</label><input type="number" id="m-rang" min="1" max="10"></div>
+        <div class="form-group"><label>XP donnée</label><input type="number" id="m-xp"></div>
+        <div class="form-group"><label>Description</label><textarea id="m-desc"></textarea></div>
+        <div class="form-group"><label>Capacités / Attaques</label><textarea id="m-cap"></textarea></div>
+        <div class="form-group"><label>Localisation</label><input type="text" id="m-loc"></div>
+        <button class="btn" onclick="ajouter('monstre')">Ajouter le monstre</button>
+      </div>
+
+      <!-- FORM BOSS -->
+      <div id="tab-boss" class="admin-form">
+        <div class="form-group"><label>Nom</label><input type="text" id="b-nom"></div>
+        <div class="form-group"><label>Rang (1-10)</label><input type="number" id="b-rang" min="1" max="10"></div>
+        <div class="form-group"><label>XP donnée</label><input type="number" id="b-xp"></div>
+        <div class="form-group"><label>Description</label><textarea id="b-desc"></textarea></div>
+        <div class="form-group"><label>Capacités / Attaques</label><textarea id="b-cap"></textarea></div>
+        <div class="form-group"><label>Localisation</label><input type="text" id="b-loc"></div>
+        <button class="btn" onclick="ajouter('boss')">Ajouter le boss</button>
+      </div>
+
+      <!-- FORM ITEM -->
+      <div id="tab-item" class="admin-form">
+        <div class="form-group"><label>Nom</label><input type="text" id="i-nom"></div>
+        <div class="form-group"><label>Rareté</label>
+          <select id="i-rarete" style="width:100%;padding:0.5rem;font-family:'Crimson Text',serif;font-size:1rem;border:2px solid var(--parch-darker);border-radius:4px;background:var(--parch)">
+            <option>Commun</option><option>Peu Commun</option><option>Rare</option>
+            <option>Épique</option><option>Légendaire</option><option>Mythique</option>
+            <option>Transcendant</option><option>Ego</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Type</label><input type="text" id="i-type" placeholder="gemme / arme / armure / consommable..."></div>
+        <div class="form-group"><label>Prix (crédits)</label><input type="number" id="i-prix"></div>
+        <div class="form-group"><label>Effet / Description</label><textarea id="i-desc"></textarea></div>
+        <button class="btn" onclick="ajouter('item')">Ajouter l'item</button>
+      </div>
+
+      <!-- FORM DONJON -->
+      <div id="tab-donjon" class="admin-form">
+        <div class="form-group"><label>Rang (ex: C+, A-, B)</label><input type="text" id="d-rang"></div>
+        <div class="form-group"><label>Crédits de récompense</label><input type="number" id="d-credits"></div>
+        <div class="form-group"><label>Description / Lore</label><textarea id="d-desc"></textarea></div>
+        <button class="btn" onclick="ajouter('donjon')">Ajouter le donjon</button>
+      </div>
+
+      <!-- FORM ANECDOTE -->
+      <div id="tab-anecdote" class="admin-form">
+        <div class="form-group"><label>Titre</label><input type="text" id="a-titre"></div>
+        <div class="form-group"><label>Contenu</label><textarea id="a-contenu" style="min-height:150px"></textarea></div>
+        <button class="btn" onclick="ajouter('anecdote')">Publier l'anecdote</button>
+      </div>
+
+      <!-- FORM FAQ REPONSE -->
+      <div id="tab-faq-rep" class="admin-form">
+        <div class="form-group"><label>Question</label><input type="text" id="f-question"></div>
+        <div class="form-group"><label>Réponse</label><textarea id="f-reponse"></textarea></div>
+        <button class="btn" onclick="ajouter('faq')">Ajouter à la FAQ</button>
+      </div>
+
+      <!-- QUESTIONS EN ATTENTE -->
+      <div id="tab-questions" class="admin-form">
+        <h3 style="font-family:'Cinzel',serif;color:var(--wood-dark);margin-bottom:1rem">Questions en attente</h3>
+        <div id="questions-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── MOT DE PASSE ADMIN ───
+const ADMIN_PASSWORD = "mj2024"; // Change ce mot de passe !
+
+// ─── DONNÉES ───
+let data = JSON.parse(localStorage.getItem('ttq-data') || JSON.stringify({
+  monstres: [], boss: [], items: [], donjons: [], anecdotes: [], faq: [], questions: []
+}));
+
+function save() {
+  localStorage.setItem('ttq-data', JSON.stringify(data));
+}
+
+// ─── ADMIN LOGIN ───
+let isAdmin = false;
+
+function toggleAdmin() {
+  const panel = document.getElementById('admin-panel');
+  panel.classList.toggle('open');
+  if (isAdmin) showAdminContent();
+}
+
+function adminLogin() {
+  const pwd = document.getElementById('admin-pwd').value;
+  if (pwd === ADMIN_PASSWORD) {
+    isAdmin = true;
+    document.getElementById('admin-login').classList.remove('active');
+    showAdminContent();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+  }
+}
+
+function showAdminContent() {
+  document.getElementById('admin-login').style.display = 'none';
+  document.getElementById('admin-content').classList.add('active');
+  renderQuestions();
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.admin-tab').forEach((t,i) => t.classList.remove('active'));
+  document.querySelectorAll('[id^="tab-"]').forEach(t => t.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-' + tab).classList.add('active');
+  if (tab === 'questions') renderQuestions();
+}
+
+// ─── AJOUTER ───
+function ajouter(type) {
+  if (type === 'monstre') {
+    const nom = document.getElementById('m-nom').value.trim();
+    if (!nom) return alert('Le nom est requis.');
+    data.monstres.push({
+      id: Date.now(), nom,
+      rang: document.getElementById('m-rang').value,
+      xp: document.getElementById('m-xp').value,
+      desc: document.getElementById('m-desc').value,
+      cap: document.getElementById('m-cap').value,
+      loc: document.getElementById('m-loc').value
+    });
+    ['m-nom','m-rang','m-xp','m-desc','m-cap','m-loc'].forEach(id => document.getElementById(id).value = '');
+  }
+  else if (type === 'boss') {
+    const nom = document.getElementById('b-nom').value.trim();
+    if (!nom) return alert('Le nom est requis.');
+    data.boss.push({
+      id: Date.now(), nom,
+      rang: document.getElementById('b-rang').value,
+      xp: document.getElementById('b-xp').value,
+      desc: document.getElementById('b-desc').value,
+      cap: document.getElementById('b-cap').value,
+      loc: document.getElementById('b-loc').value
+    });
+    ['b-nom','b-rang','b-xp','b-desc','b-cap','b-loc'].forEach(id => document.getElementById(id).value = '');
+  }
+  else if (type === 'item') {
+    const nom = document.getElementById('i-nom').value.trim();
+    if (!nom) return alert('Le nom est requis.');
+    data.items.push({
+      id: Date.now(), nom,
+      rarete: document.getElementById('i-rarete').value,
+      type: document.getElementById('i-type').value,
+      prix: document.getElementById('i-prix').value,
+      desc: document.getElementById('i-desc').value
+    });
+    ['i-nom','i-type','i-prix','i-desc'].forEach(id => document.getElementById(id).value = '');
+  }
+  else if (type === 'donjon') {
+    const rang = document.getElementById('d-rang').value.trim();
+    if (!rang) return alert('Le rang est requis.');
+    data.donjons.push({
+      id: Date.now(), rang,
+      credits: document.getElementById('d-credits').value,
+      desc: document.getElementById('d-desc').value
+    });
+    ['d-rang','d-credits','d-desc'].forEach(id => document.getElementById(id).value = '');
+  }
+  else if (type === 'anecdote') {
+    const titre = document.getElementById('a-titre').value.trim();
+    if (!titre) return alert('Le titre est requis.');
+    data.anecdotes.unshift({
+      id: Date.now(), titre,
+      contenu: document.getElementById('a-contenu').value,
+      date: new Date().toLocaleDateString('fr-FR', {day:'numeric',month:'long',year:'numeric'})
+    });
+    ['a-titre','a-contenu'].forEach(id => document.getElementById(id).value = '');
+  }
+  else if (type === 'faq') {
+    const q = document.getElementById('f-question').value.trim();
+    if (!q) return alert('La question est requise.');
+    data.faq.push({
+      id: Date.now(),
+      question: q,
+      reponse: document.getElementById('f-reponse').value
+    });
+    ['f-question','f-reponse'].forEach(id => document.getElementById(id).value = '');
+  }
+  save();
+  renderAll();
+}
+
+function supprimer(type, id) {
+  if (!confirm('Supprimer cet élément ?')) return;
+  data[type] = data[type].filter(x => x.id !== id);
+  save();
+  renderAll();
+}
+
+// ─── RENDER ───
+function renderMonstres(filtre = '', rang = '') {
+  const grid = document.getElementById('grid-monstres');
+  let list = data.monstres.filter(m =>
+    m.nom.toLowerCase().includes(filtre.toLowerCase()) &&
+    (rang === '' || m.rang == rang)
+  );
+  if (!list.length) { grid.innerHTML = '<div class="empty-state">Aucun monstre trouvé.</div>'; return; }
+  grid.innerHTML = list.map(m => `
+    <div class="card" style="position:relative">
+      ${isAdmin ? `<button class="delete-btn" onclick="supprimer('monstres',${m.id})">✕</button>` : ''}
+      <div class="card-header">
+        <div class="card-name">${m.nom}</div>
+        <div class="card-rang">Rang ${m.rang}</div>
+      </div>
+      ${m.xp ? `<div class="card-xp">⚡ ${Number(m.xp).toLocaleString()} XP</div>` : ''}
+      ${m.desc ? `<div class="card-desc">${m.desc}</div>` : ''}
+      ${m.cap ? `<div class="card-capacites"><strong>Capacités —</strong> ${m.cap}</div>` : ''}
+      ${m.loc ? `<div style="font-size:0.85rem;color:var(--wood-light);margin-top:0.5rem">📍 ${m.loc}</div>` : ''}
+    </div>
+  `).join('');
+
+  // Filtres rangs
+  const rangs = [...new Set(data.monstres.map(m => m.rang))].sort((a,b) => a-b);
+  document.getElementById('filter-monstres').innerHTML =
+    `<button class="filter-btn ${rang===''?'active':''}" onclick="renderMonstres('${filtre}','')">Tous</button>` +
+    rangs.map(r => `<button class="filter-btn ${rang==r?'active':''}" onclick="renderMonstres('${filtre}','${r}')">Rang ${r}</button>`).join('');
+}
+
+function renderBoss(filtre = '') {
+  const grid = document.getElementById('grid-boss');
+  let list = data.boss.filter(m => m.nom.toLowerCase().includes(filtre.toLowerCase()));
+  if (!list.length) { grid.innerHTML = '<div class="empty-state">Aucun boss trouvé.</div>'; return; }
+  grid.innerHTML = list.map(b => `
+    <div class="card" style="position:relative;border-left:4px solid var(--red)">
+      ${isAdmin ? `<button class="delete-btn" onclick="supprimer('boss',${b.id})">✕</button>` : ''}
+      <div class="card-header">
+        <div class="card-name">${b.nom}</div>
+        <div class="card-rang" style="background:var(--red)">Boss ${b.rang}</div>
+      </div>
+      ${b.xp ? `<div class="card-xp">⚡ ${Number(b.xp).toLocaleString()} XP</div>` : ''}
+      ${b.desc ? `<div class="card-desc">${b.desc}</div>` : ''}
+      ${b.cap ? `<div class="card-capacites"><strong>Capacités —</strong> ${b.cap}</div>` : ''}
+      ${b.loc ? `<div style="font-size:0.85rem;color:var(--wood-light);margin-top:0.5rem">📍 ${b.loc}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+function renderItems(filtre = '', rarete = '') {
+  const grid = document.getElementById('grid-items');
+  let list = data.items.filter(i =>
+    i.nom.toLowerCase().includes(filtre.toLowerCase()) &&
+    (rarete === '' || i.rarete === rarete)
+  );
+  if (!list.length) { grid.innerHTML = '<div class="empty-state">Aucun item trouvé.</div>'; return; }
+  grid.innerHTML = list.map(i => {
+    const rarKey = i.rarete.replace(/ /g,'');
+    return `
+    <div class="card" style="position:relative">
+      ${isAdmin ? `<button class="delete-btn" onclick="supprimer('items',${i.id})">✕</button>` : ''}
+      <span class="rarete-badge rarete-${rarKey}">${i.rarete}</span>
+      <div class="card-name" style="margin-bottom:0.5rem">${i.nom}</div>
+      ${i.type ? `<div style="font-size:0.85rem;color:var(--wood-light);margin-bottom:0.4rem">Type : ${i.type}</div>` : ''}
+      ${i.prix ? `<div style="font-size:0.9rem;color:var(--gold);font-weight:600;margin-bottom:0.5rem">💰 ${Number(i.prix).toLocaleString()} crédits</div>` : ''}
+      ${i.desc ? `<div class="card-desc">${i.desc}</div>` : ''}
+    </div>
+  `}).join('');
+
+  const raretes = [...new Set(data.items.map(i => i.rarete))];
+  document.getElementById('filter-items').innerHTML =
+    `<button class="filter-btn ${rarete===''?'active':''}" onclick="renderItems('${filtre}','')">Tous</button>` +
+    raretes.map(r => `<button class="filter-btn ${rarete===r?'active':''}" onclick="renderItems('${filtre}','${r}')">${r}</button>`).join('');
+}
+
+function renderDonjons() {
+  const grid = document.getElementById('grid-donjons');
+  if (!data.donjons.length) { grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1">Aucun donjon encore répertorié.</div>'; return; }
+  grid.innerHTML = data.donjons.map(d => `
+    <div class="donjon-card" style="position:relative">
+      ${isAdmin ? `<button class="delete-btn" onclick="supprimer('donjons',${d.id})">✕</button>` : ''}
+      <div class="donjon-rang">Donjon ${d.rang}</div>
+      ${d.credits ? `<div class="donjon-credits">💰 ${Number(d.credits).toLocaleString()} crédits</div>` : ''}
+      ${d.desc ? `<div class="donjon-desc">${d.desc}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+function renderAnecdotes() {
+  const list = document.getElementById('list-anecdotes');
+  if (!data.anecdotes.length) { list.innerHTML = '<div class="empty-state">Aucune anecdote encore rédigée.</div>'; return; }
+  list.innerHTML = data.anecdotes.map(a => `
+    <div class="anecdote" style="position:relative">
+      ${isAdmin ? `<button class="delete-btn" onclick="supprimer('anecdotes',${a.id})">✕</button>` : ''}
+      <div class="anecdote-title">${a.titre}</div>
+      <div class="anecdote-date">📅 ${a.date}</div>
+      <div>${a.contenu.replace(/\n/g,'<br>')}</div>
+    </div>
+  `).join('');
+}
+
+function renderFaq() {
+  const list = document.getElementById('list-faq');
+  if (!data.faq.length) { list.innerHTML = '<div class="empty-state">Aucune question encore répondue.</div>'; return; }
+  list.innerHTML = data.faq.map(f => `
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        ${f.question}
+        <span class="faq-arrow">▶</span>
+      </button>
+      <div class="faq-answer">${f.reponse}</div>
+    </div>
+  `).join('');
+}
+
+function renderQuestions() {
+  const list = document.getElementById('questions-list');
+  if (!data.questions.length) { list.innerHTML = '<div class="empty-state">Aucune question en attente.</div>'; return; }
+  list.innerHTML = data.questions.map(q => `
+    <div style="background:var(--parch-dark);border:1px solid var(--parch-darker);border-radius:4px;padding:1rem;margin-bottom:0.8rem">
+      <strong style="font-family:'Cinzel',serif;color:var(--wood-dark)">${q.pseudo}</strong>
+      <div style="font-style:italic;margin:0.3rem 0">${q.question}</div>
+      <div style="display:flex;gap:0.5rem;margin-top:0.5rem">
+        <button class="btn" style="font-size:0.8rem;padding:0.3rem 0.8rem" onclick="repQuestion(${q.id})">Répondre</button>
+        <button class="btn" style="font-size:0.8rem;padding:0.3rem 0.8rem;background:var(--red);border-color:var(--red);color:white" onclick="suppQuestion(${q.id})">Supprimer</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function repQuestion(id) {
+  const q = data.questions.find(x => x.id === id);
+  if (!q) return;
+  document.getElementById('f-question').value = q.question;
+  switchTab('faq-rep');
+  document.querySelector('.admin-tab:nth-child(6)').classList.add('active');
+}
+
+function suppQuestion(id) {
+  data.questions = data.questions.filter(x => x.id !== id);
+  save();
+  renderQuestions();
+}
+
+function toggleFaq(btn) {
+  btn.closest('.faq-item').classList.toggle('open');
+}
+
+function envoyerQuestion() {
+  const pseudo = document.getElementById('faq-pseudo').value.trim();
+  const question = document.getElementById('faq-question').value.trim();
+  if (!pseudo || !question) return alert('Remplis tous les champs.');
+  data.questions.push({ id: Date.now(), pseudo, question });
+  save();
+  document.getElementById('faq-pseudo').value = '';
+  document.getElementById('faq-question').value = '';
+  document.getElementById('faq-confirm').style.display = 'block';
+  setTimeout(() => document.getElementById('faq-confirm').style.display = 'none', 3000);
+}
+
+function renderAll() {
+  renderMonstres();
+  renderBoss();
+  renderItems();
+  renderDonjons();
+  renderAnecdotes();
+  renderFaq();
+}
+
+// ─── SEARCH ───
+document.getElementById('search-monstres').addEventListener('input', e => renderMonstres(e.target.value));
+document.getElementById('search-boss').addEventListener('input', e => renderBoss(e.target.value));
+document.getElementById('search-items').addEventListener('input', e => renderItems(e.target.value));
+
+// ─── INIT ───
+renderAll();
+</script>
+</body>
+</html>
